@@ -29,6 +29,17 @@ a, .btn {
 
 /*NAVIGATION*/
 
+#desktop-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 0 0;
+  z-index: 1000; 
+  /* Ensure the navbar stays above other content */
+}
+
 nav, .nav-links {
   display:flex
 }
@@ -36,7 +47,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 10vh;
 }
 
 .nav-links {
@@ -149,7 +160,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
+  padding-top: 10vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
